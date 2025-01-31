@@ -1,29 +1,33 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class Player : MonoBehaviour
+public class Player : Character
 {   
+    private float speed = 4f; // vitesse du personnage
+    private Vector2 direction; // vecteur de direction du personnage
 
-    public float speed = 5f;
-    Rigidbody2D rb;
-    Vector2 direction;
-
-    private PlayerInput inputs;
-    void Start()
+    private void Update()
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    void Update()
-    {
-        moove();
-
-
-    }
-
-    void moove(){
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
-        rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+        if (direction.magnitude > 0)
+        {
+            direction.Normalize();
+        }
+        
+    }
+
+    private void FixedUpdate()
+    {
+        Move();
+    }
+
+    protected override void Move()
+    {
+        body.MovePosition(body.position + direction * speed * Time.fixedDeltaTime);
+    }
+
+    protected override void Attack(){
+        // TODO
+
     }
 }

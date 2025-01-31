@@ -4,8 +4,8 @@ public class CameraController : MonoBehaviour
 {
     public Transform player; //joueur que la caméra suit
     Vector3 target,mousePos, refVel, shakeOffset; 
-    float cameraDist = 3.5f;
-    float smoothTime = 0.2f, zStart;
+    float cameraDist = 1f;
+    float smoothTime = 0.1f, zStart;
     float shakeMag,shakeTimeEnd;
     Vector3 shakeVector;
     bool shaking;
@@ -17,7 +17,6 @@ public class CameraController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         mousePos = CaptureMousePos();
