@@ -1,13 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : Character
+public class PlayerMovement : Character
 {   
     private float speed = 4f; // vitesse du personnage
     private Vector2 direction; // vecteur de direction du personnage
     float previousMouseWheel = 0; // sens de la molette précédant
     int selectedWeapon = 0; //arme courante sélectionnée avec la molette
     private List<Weapon> weapons; //liste des armes que possède le joueur
+
+    private bool isMoving; //utile
 
     private void Update()
     {   
@@ -17,6 +19,11 @@ public class Player : Character
         if (direction.magnitude > 0)
         {
             direction.Normalize(); // normalise le vecteur pour éviter les accélérations
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
         }
 
 
@@ -31,10 +38,19 @@ public class Player : Character
 
     }
 
+    //getter
+    public bool getIsMoving() 
+    {
+        return isMoving;
+    }
+    public Vector2 getDirection()
+    {
+        return direction;
+    }
+
     private void FixedUpdate()
     {
         Move();
-
     }
 
     protected override void Move()

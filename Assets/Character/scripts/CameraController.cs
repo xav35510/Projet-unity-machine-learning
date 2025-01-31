@@ -3,7 +3,10 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform player; //joueur que la caméra suit
-    Vector3 target,mousePos, refVel, shakeOffset; 
+    public Utile utile;
+
+    private Vector3 mousePos, target, refVel, shakeOffset;
+
     float cameraDist = 1f;
     float smoothTime = 0.1f, zStart;
     float shakeMag,shakeTimeEnd;
@@ -19,23 +22,12 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        mousePos = CaptureMousePos();
+        mousePos = utile.getMousePos();
         shakeOffset = UpdateShake();
         target = UpdateTargetPos();
         UpdateCameraPosition();
     }
 
-
-    Vector3 CaptureMousePos(){
-        Vector2 ret = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-        ret *=2;
-        ret -= Vector2.one;
-        float max = 0.9f;
-        if(Mathf.Abs(ret.x) > max || Mathf.Abs(ret.y) > max){
-            ret = ret.normalized;
-        }
-        return ret;
-    }
     Vector3 UpdateTargetPos(){
         Vector3 mouseOffset = mousePos * cameraDist;
         Vector3 ret = player.position + mouseOffset;
