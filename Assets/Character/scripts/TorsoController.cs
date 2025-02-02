@@ -129,7 +129,7 @@ public class torsoController : MonoBehaviour
     {
         AnimatorStateInfo info = legsAnimation.GetCurrentAnimatorStateInfo(0);
         startingFrame = info.normalizedTime % 1f;
-        torsoAnimation.Play(info.shortNameHash, -1 , startingFrame);
+        torsoAnimation.Play(info.shortNameHash, 1 , startingFrame);
     }
     }
 

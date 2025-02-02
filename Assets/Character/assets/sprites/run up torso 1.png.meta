@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3ba1d4eab3207286ba8654f0da34781
+guid: 20e1f8a7ed96c4357bcaf541329d57ab
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: run up torso 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3200
-        width: 1600
-        height: 1600
+        x: 511
+        y: 3871
+        width: 514
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: run up torso 1_1
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 3200
-        width: 1600
-        height: 1600
+        x: 2111
+        y: 3935
+        width: 514
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: run up torso 1_2
       rect:
         serializedVersion: 2
-        x: 3200
-        y: 3200
-        width: 1600
-        height: 1600
+        x: 3711
+        y: 3903
+        width: 514
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: run up torso 1_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1600
-        width: 1600
-        height: 1600
+        x: 511
+        y: 2271
+        width: 514
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: run up torso 1_4
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 1600
-        width: 1600
-        height: 1600
+        x: 2111
+        y: 2271
+        width: 514
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: run up torso 1_5
       rect:
         serializedVersion: 2
-        x: 3200
-        y: 1600
-        width: 1600
-        height: 1600
+        x: 3711
+        y: 2303
+        width: 514
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: run up torso 1_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1600
-        height: 1600
+        x: 511
+        y: 671
+        width: 514
+        height: 514
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: run up torso 1_7
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 1600
-        height: 1600
+        x: 2111
+        y: 671
+        width: 514
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1a1ce0d547e84563290b65f29316f56a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -322,15 +322,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      run up torso 1_0: -1894553332382010284
-      run up torso 1_1: 4560008231254963861
-      run up torso 1_2: -5590879902379612233
-      run up torso 1_3: -732094620433232190
-      run up torso 1_4: 3723366673099858927
-      run up torso 1_5: -6330066501741475550
-      run up torso 1_6: 1043005494589603664
-      run up torso 1_7: -7765916425425578026
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

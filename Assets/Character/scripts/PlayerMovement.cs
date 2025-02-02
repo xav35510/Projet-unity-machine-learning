@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : Character
-{   
-    private float speed = 4f; // vitesse du personnage
+{
+    public float speed = 7f; // vitesse du personnage
     private Vector2 direction; // vecteur de direction du personnage
     float previousMouseWheel = 0; // sens de la molette précédant
     int selectedWeapon = 0; //arme courante sélectionnée avec la molette
