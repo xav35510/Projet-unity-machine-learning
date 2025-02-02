@@ -147,10 +147,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1cf8f843c955b0188904169d31ea31dd
-      internalID: 558553938
+      spriteID: 0d73fd3cb39026ac0800000000000000
+      internalID: -3863515378036557872
       vertices: []
       indices: 
       edges: []
@@ -169,10 +169,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7f3caa59b63c6de49ad226d906b614dd
-      internalID: 2047607381
+      spriteID: 1e2f3934da15dbb20800000000000000
+      internalID: 3151765118834176737
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 44eb73e127be206eebf938a6563ef4cb
-      internalID: 220294485
+      spriteID: ffcdc04c345f54e90800000000000000
+      internalID: -7041952770923111169
       vertices: []
       indices: 
       edges: []
@@ -213,10 +213,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 63fa92f1ade818eeb968d8894ea0a1b5
-      internalID: -826817497
+      spriteID: a8e6be5ddcad03850800000000000000
+      internalID: 6354819651811896970
       vertices: []
       indices: 
       edges: []
@@ -235,10 +235,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eae48190906ed0bedaa164f1b4e70849
-      internalID: -46998227
+      spriteID: 67dbc1368b678b660800000000000000
+      internalID: 7401796521892298102
       vertices: []
       indices: 
       edges: []
@@ -257,10 +257,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b4f362f5807af9bd4ab5524fd8110c36
-      internalID: 2127939774
+      spriteID: a4dabd44115971c30800000000000000
+      internalID: 4330093468142251338
       vertices: []
       indices: 
       edges: []
@@ -279,10 +279,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9d6a27d0897e3fb29b763d5f7bc4cf69
-      internalID: -983069193
+      spriteID: 833a3df425cd202b0800000000000000
+      internalID: -5619687138920258760
       vertices: []
       indices: 
       edges: []
@@ -301,10 +301,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fd4702e04ad9b5ab9b9c9d4d16eb430a
-      internalID: -1668213525
+      spriteID: 2b02a274048fcafb0800000000000000
+      internalID: -4635056961515544398
       vertices: []
       indices: 
       edges: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2697993b0ee46f4e38b2726518e15ec5
+    spriteID: 0912cbc92310bd329bf8ac20ad86ae62
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      run buttom left torso_0: 558553938
-      run buttom left torso_1: 2047607381
-      run buttom left torso_2: 220294485
-      run buttom left torso_3: -826817497
-      run buttom left torso_4: -46998227
-      run buttom left torso_5: 2127939774
-      run buttom left torso_6: -983069193
-      run buttom left torso_7: -1668213525
+      run buttom left torso_0: -3863515378036557872
+      run buttom left torso_1: 3151765118834176737
+      run buttom left torso_2: -7041952770923111169
+      run buttom left torso_3: 6354819651811896970
+      run buttom left torso_4: 7401796521892298102
+      run buttom left torso_5: 4330093468142251338
+      run buttom left torso_6: -5619687138920258760
+      run buttom left torso_7: -4635056961515544398
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

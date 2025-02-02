@@ -147,10 +147,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 58af242e24c7170d0b04997b4c2e1f78
-      internalID: -1484877457
+      spriteID: dbe7a22fac02e7c00800000000000000
+      internalID: 900193031539031741
       vertices: []
       indices: 
       edges: []
@@ -169,10 +169,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d66b29271174a592a8c19b45b93365c5
-      internalID: -1968166255
+      spriteID: 448fde04b262a4340800000000000000
+      internalID: 4848729916032546884
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2a7c09bbe0d790049806cccd0aa5be13
-      internalID: -702201239
+      spriteID: 0129048aea49d6790800000000000000
+      internalID: -7535203123652947440
       vertices: []
       indices: 
       edges: []
@@ -213,10 +213,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8e62b7c046bc19707bd20e8b11e55b3d
-      internalID: -1744571362
+      spriteID: a596a58d1157bc2a0800000000000000
+      internalID: -6716145699788265126
       vertices: []
       indices: 
       edges: []
@@ -235,10 +235,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9ee6c2603af4f6f8ca449563021d56f4
-      internalID: -530445430
+      spriteID: b78afd9671f65cee0800000000000000
+      internalID: -1241463975919507333
       vertices: []
       indices: 
       edges: []
@@ -257,10 +257,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 305ab5a2cb5ecbfd382a83325db95b24
-      internalID: -565737863
+      spriteID: e986e3dac005f4720800000000000000
+      internalID: 2832570706015709342
       vertices: []
       indices: 
       edges: []
@@ -279,10 +279,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d3d5135b22fd89d88ae545b64eb01d58
-      internalID: 1936374287
+      spriteID: de25649cc9f32bd60800000000000000
+      internalID: 7904450238612919021
       vertices: []
       indices: 
       edges: []
@@ -301,10 +301,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6d6763abd7fcc11f8a8627839eac1f53
-      internalID: -1177932598
+      spriteID: 094d53bdb7d61be20800000000000000
+      internalID: 3364590775348614288
       vertices: []
       indices: 
       edges: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2b334fa0f567ad965a7f74b9ca209cae
+    spriteID: 1c7ceb5ef1fc954cb94d57a452f831ea
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      run up left torso_0: -1484877457
-      run up left torso_1: -1968166255
-      run up left torso_2: -702201239
-      run up left torso_3: -1744571362
-      run up left torso_4: -530445430
-      run up left torso_5: -565737863
-      run up left torso_6: 1936374287
-      run up left torso_7: -1177932598
+      run up left torso_0: 900193031539031741
+      run up left torso_1: 4848729916032546884
+      run up left torso_2: -7535203123652947440
+      run up left torso_3: -6716145699788265126
+      run up left torso_4: -1241463975919507333
+      run up left torso_5: 2832570706015709342
+      run up left torso_6: 7904450238612919021
+      run up left torso_7: 3364590775348614288
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

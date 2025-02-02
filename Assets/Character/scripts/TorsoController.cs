@@ -48,62 +48,91 @@ public class torsoController : MonoBehaviour
         {
             sprite.flipX =false;
         }
-    if((mouseAngle >= -0.375f && mouseAngle < 0.375f)) // Droite
+    if((mouseAngle > -0.25f && mouseAngle < 0.25f)) // Droite
     {
         torsoAnimation.SetFloat("horizontal", 1);
         torsoAnimation.SetFloat("vertical", 0);
         legsAnimation.SetFloat("horizontal", 1);
         legsAnimation.SetFloat("vertical", 0);
     }
-    else if(mouseAngle >= 0.375f && mouseAngle < 1.125f) // Haut-Droite
+    else if(mouseAngle > 0.25f && mouseAngle < 0.75f) // Droite-Haut-Droite
     {
-        torsoAnimation.SetFloat("horizontal", 0.75f);
-        torsoAnimation.SetFloat("vertical", 0.75f);
-        legsAnimation.SetFloat("horizontal", 0.75f);
-        legsAnimation.SetFloat("vertical", 0.75f);
+        torsoAnimation.SetFloat("horizontal", 0.875f);
+        torsoAnimation.SetFloat("vertical", 0.5f);
+        legsAnimation.SetFloat("horizontal", 0.875f);
+        legsAnimation.SetFloat("vertical", 0.5f);
     }
-    else if(mouseAngle >= 1.125f && mouseAngle < 1.875f) // Haut
+    else if(mouseAngle > 0.75f && mouseAngle < 1.25f) // Haut-Droite
+    {
+        torsoAnimation.SetFloat("horizontal", 0.5f);
+        torsoAnimation.SetFloat("vertical", 0.875f);
+        legsAnimation.SetFloat("horizontal", 0.5f);
+        legsAnimation.SetFloat("vertical", 0.875f);
+    }
+    else if(mouseAngle > 1.125f && mouseAngle < 1.75f) // Haut
     {
         torsoAnimation.SetFloat("horizontal", 0);
         torsoAnimation.SetFloat("vertical", 1);
         legsAnimation.SetFloat("horizontal", 0);
         legsAnimation.SetFloat("vertical", 1);
     }
-    else if(mouseAngle >= 1.875f && mouseAngle < 2.625f) // Haut-Gauche
+    else if(mouseAngle > 1.75f && mouseAngle < 2.25f) // Haut-Gauche
     {
-        torsoAnimation.SetFloat("horizontal", -0.75f);
-        torsoAnimation.SetFloat("vertical", 0.75f);
-        legsAnimation.SetFloat("horizontal", -0.75f);
-        legsAnimation.SetFloat("vertical", 0.75f);
+        torsoAnimation.SetFloat("horizontal", -0.5f);
+        torsoAnimation.SetFloat("vertical", 0.875f);
+        legsAnimation.SetFloat("horizontal", -0.5f);
+        legsAnimation.SetFloat("vertical", 0.875f);
     }
-    else if((mouseAngle >= 2.625f && mouseAngle <= 3.0f) || (mouseAngle >= -3.0f && mouseAngle < -2.625f)) // Gauche
+    else if(mouseAngle > 2.25f && mouseAngle < 2.75f) // Gauche-Haut-Gauche
+    {
+        torsoAnimation.SetFloat("horizontal", -0.875f);
+        torsoAnimation.SetFloat("vertical", 0.5f);
+        legsAnimation.SetFloat("horizontal", -0.875f);
+        legsAnimation.SetFloat("vertical", 0.5f);
+    }
+    else if(mouseAngle > 2.75f || mouseAngle < -2.75f) // Gauche
     {
         torsoAnimation.SetFloat("horizontal", -1);
         torsoAnimation.SetFloat("vertical", 0);
         legsAnimation.SetFloat("horizontal", -1);
         legsAnimation.SetFloat("vertical", 0);
     }
-    else if(mouseAngle >= -2.625f && mouseAngle < -1.875f) // Bas-Gauche
+    else if(mouseAngle > -2.75f && mouseAngle < -2.25) // Gauche-Bas-Gauche
     {
-        torsoAnimation.SetFloat("horizontal", -0.75f);
-        torsoAnimation.SetFloat("vertical", -0.75f);
-        legsAnimation.SetFloat("horizontal", -0.75f);
-        legsAnimation.SetFloat("vertical", -0.75f);
+        torsoAnimation.SetFloat("horizontal", -0.875f);
+        torsoAnimation.SetFloat("vertical", -0.5f);
+        legsAnimation.SetFloat("horizontal", -0.875f);
+        legsAnimation.SetFloat("vertical", -0.5f);
     }
-    else if(mouseAngle >= -1.875f && mouseAngle < -1.125f) // Bas
+    else if(mouseAngle > -2.25f && mouseAngle < -1.75f) // Bas-Gauche
+    {
+        torsoAnimation.SetFloat("horizontal", -0.5f);
+        torsoAnimation.SetFloat("vertical", -0.875f);
+        legsAnimation.SetFloat("horizontal", -0.5f);
+        legsAnimation.SetFloat("vertical", -0.875f);
+    }
+    else if(mouseAngle >= -1.75f && mouseAngle < -1.25f) // Bas
     {
         torsoAnimation.SetFloat("horizontal", 0);
         torsoAnimation.SetFloat("vertical", -1);
         legsAnimation.SetFloat("horizontal", 0);
         legsAnimation.SetFloat("vertical", -1);
     }
-    else if(mouseAngle >= -1.125f && mouseAngle < -0.375f) // Bas-Droite
+    else if(mouseAngle > -1.25f && mouseAngle < -0.75f) // Bas-Droite
     {
-        torsoAnimation.SetFloat("horizontal", 0.75f);
-        torsoAnimation.SetFloat("vertical", -0.75f);
-        legsAnimation.SetFloat("horizontal", 0.75f);
-        legsAnimation.SetFloat("vertical", -0.75f);
+        torsoAnimation.SetFloat("horizontal", 0.5f);
+        torsoAnimation.SetFloat("vertical", -0.866f);
+        legsAnimation.SetFloat("horizontal", 0.5f);
+        legsAnimation.SetFloat("vertical", -0.866f);
     }
+    else if(mouseAngle >= -0.75f && mouseAngle < -0.25f) // Droite-Bas-Droite
+    {
+        torsoAnimation.SetFloat("horizontal", 0.875f);
+        torsoAnimation.SetFloat("vertical", -0.5f);
+        legsAnimation.SetFloat("horizontal", 0.875f);
+        legsAnimation.SetFloat("vertical", -0.5f);
+    }
+
     }
 
 }

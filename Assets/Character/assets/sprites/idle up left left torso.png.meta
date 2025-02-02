@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 98a50411cd8f2a64f95380fc1bb94b84
+guid: 7111c6df601f8ad33aa4ddc7d038555e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6954291575681956205
-    second: idle up legs_0
+      213: -799147726041148176
+    second: idle up left left torso_0
   - first:
-      213: 114114438597144767
-    second: idle up legs_1
+      213: 3781937758265337880
+    second: idle up left left torso_1
   - first:
-      213: 206851150613951163
-    second: idle up legs_2
+      213: -4718227529922964548
+    second: idle up left left torso_2
   - first:
-      213: 3083336832855890962
-    second: idle up legs_3
+      213: 3236437310753358224
+    second: idle up left left torso_3
   - first:
-      213: -4147381392245256898
-    second: idle up legs_4
+      213: -6793967812400072653
+    second: idle up left left torso_4
   - first:
-      213: -2157021925506855164
-    second: idle up legs_5
+      213: 8694486430226006233
+    second: idle up left left torso_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +87,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle up legs_0
+      name: idle up left left torso_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d69b309b75b928060800000000000000
-      internalID: 6954291575681956205
+      spriteID: 0f49142906bd8e4f0800000000000000
+      internalID: -799147726041148176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle up legs_1
+      name: idle up left left torso_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb073503a7a659100800000000000000
-      internalID: 114114438597144767
+      spriteID: 818ea048a542c7430800000000000000
+      internalID: 3781937758265337880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle up legs_2
+      name: idle up left left torso_2
       rect:
         serializedVersion: 2
         x: 0
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb2b9b98602eed200800000000000000
-      internalID: 206851150613951163
+      spriteID: cb3197d4f0d758eb0800000000000000
+      internalID: -4718227529922964548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle up legs_3
+      name: idle up left left torso_3
       rect:
         serializedVersion: 2
         x: 1600
@@ -209,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21cd04563863aca20800000000000000
-      internalID: 3083336832855890962
+      spriteID: 091464536922aec20800000000000000
+      internalID: 3236437310753358224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle up legs_4
+      name: idle up left left torso_4
       rect:
         serializedVersion: 2
         x: 0
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3d0827f89a8176c0800000000000000
-      internalID: -4147381392245256898
+      spriteID: 338b476454af6b1a0800000000000000
+      internalID: -6793967812400072653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle up legs_5
+      name: idle up left left torso_5
       rect:
         serializedVersion: 2
         x: 1600
@@ -253,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40f4f65bcf7b012e0800000000000000
-      internalID: -2157021925506855164
+      spriteID: 9d0431ac75509a870800000000000000
+      internalID: 8694486430226006233
       vertices: []
       indices: 
       edges: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ec72b775d79ba001285188a4f4314bb5
+    spriteID: 2b6d5e46d8f186c7f9417645e81e8e64
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      idle up legs_0: 6954291575681956205
-      idle up legs_1: 114114438597144767
-      idle up legs_2: 206851150613951163
-      idle up legs_3: 3083336832855890962
-      idle up legs_4: -4147381392245256898
-      idle up legs_5: -2157021925506855164
+      idle up left left torso_0: -799147726041148176
+      idle up left left torso_1: 3781937758265337880
+      idle up left left torso_2: -4718227529922964548
+      idle up left left torso_3: 3236437310753358224
+      idle up left left torso_4: -6793967812400072653
+      idle up left left torso_5: 8694486430226006233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

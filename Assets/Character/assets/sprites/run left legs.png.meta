@@ -93,7 +93,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2586fb5ec41722adeb7dc77cef2d8965
+    spriteID: 985f549c0c6a93637baf3ff7e4a1e545
     internalID: 0
     vertices: []
     indices: 
