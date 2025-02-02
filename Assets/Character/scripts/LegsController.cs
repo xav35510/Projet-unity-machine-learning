@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class legsController : MonoBehaviour
+public class LegsController : MonoBehaviour
 {
 
     public Utile utile;
@@ -40,24 +40,36 @@ public class legsController : MonoBehaviour
 
     private void directionTorso()
     {
-
         if(playerMovement.getDirection().x > 0)
         {
-            legsAnimation.SetFloat("horizontal", 1);
+            legsAnimation.SetFloat("horizontalMovement", 1);
+            sprite.flipX = true;
         }
-        if(playerMovement.getDirection().x < 0)
+        else if(playerMovement.getDirection().x < 0)
         {
-            legsAnimation.SetFloat("horizontal", 0);
+            legsAnimation.SetFloat("horizontalMovement", -1);
+            sprite.flipX = false;
         }
+        else
+        {
+            legsAnimation.SetFloat("horizontalMovement", 0);
+            sprite.flipX = false;
+        }
+
         if(playerMovement.getDirection().y < 0)
         {
-            legsAnimation.SetFloat("vertical", -1);
+            legsAnimation.SetFloat("verticalMovement", 1);
         }
-        if(playerMovement.getDirection().y < 0)
+        else if(playerMovement.getDirection().y > 0)
         {
-            legsAnimation.SetFloat("vertical", -0.5f);
+            legsAnimation.SetFloat("verticalMovement", -1);
+        }
+        else
+        {
+            legsAnimation.SetFloat("verticalMovement", 0);
         }
         
     }
+
 
 }
