@@ -12,17 +12,10 @@ public class LegsController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        getDirection();
         getState();
-        directionTorso();
+        directionLegs();
     }
 
-
-    //récupère les déplacements du personnages pour faire tourner les jambes
-    private void getDirection()
-    {
-        
-    }
 
 
     //récupère l'info de si le joueur bouge ou pas (idle ou run)
@@ -38,7 +31,7 @@ public class LegsController : MonoBehaviour
         }
     }
 
-    private void directionTorso()
+    private void directionLegs()
     {
         if(playerMovement.getDirection().x > 0)
         {

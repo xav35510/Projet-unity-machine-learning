@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Projet unity.sln"
+    "dotnet.defaultSolution": "Projet-unity-machine-learning.sln"
 }

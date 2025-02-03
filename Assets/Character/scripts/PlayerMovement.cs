@@ -50,17 +50,7 @@ public class PlayerMovement : Character
 
     private void FixedUpdate()
     {
-        Move();
-    }
-
-    protected override void Move()
-    {
         body.MovePosition(body.position + direction * speed * Time.fixedDeltaTime); 
-    }
-
-    protected override void Attack(){
-        // TODO
-
     }
 
     private void switchWeapon(){

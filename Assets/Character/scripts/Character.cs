@@ -10,6 +10,4 @@ public abstract class Character : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
     }
 
-    protected abstract void Move();
-    protected abstract void Attack();
 }
