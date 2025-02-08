@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 99bf32446385a0a0d921e8f6522715ab
+guid: 3f0b7f38471484a11801d6821d96aa07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3974739351003769233
-    second: run up left left legs_0
+      213: 8410518727937514406
+    second: run up left left torso_0
   - first:
-      213: -6550800091164812043
-    second: run up left left legs_1
+      213: 3431379337283240794
+    second: run up left left torso_1
   - first:
-      213: 2889399880188417245
-    second: run up left left legs_2
+      213: -3417982846428416520
+    second: run up left left torso_2
   - first:
-      213: 746046656313616785
-    second: run up left left legs_3
+      213: 6734720174871995633
+    second: run up left left torso_3
   - first:
-      213: -3317906255387614592
-    second: run up left left legs_4
+      213: -2016880944315058525
+    second: run up left left torso_4
   - first:
-      213: 983104430931768844
-    second: run up left left legs_5
+      213: 1796115431547777905
+    second: run up left left torso_5
   - first:
-      213: -1064599432924276392
-    second: run up left left legs_6
+      213: 519292304703590437
+    second: run up left left torso_6
   - first:
-      213: -7944486686420418349
-    second: run up left left legs_7
+      213: 7519536649140592191
+    second: run up left left torso_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run up left left legs_0
+      name: run up left left torso_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 199a853716c192730800000000000000
-      internalID: 3974739351003769233
+      spriteID: 6ab5c73e83a28b470800000000000000
+      internalID: 8410518727937514406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left legs_1
+      name: run up left left torso_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fc56835602e615a0800000000000000
-      internalID: -6550800091164812043
+      spriteID: a530268b355be9f20800000000000000
+      internalID: 3431379337283240794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left legs_2
+      name: run up left left torso_2
       rect:
         serializedVersion: 2
         x: 3200
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd4dfa0e1e5391820800000000000000
-      internalID: 2889399880188417245
+      spriteID: 8f5714ed5b2e090d0800000000000000
+      internalID: -3417982846428416520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left legs_3
+      name: run up left left torso_3
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 199e07f2b7d7a5a00800000000000000
-      internalID: 746046656313616785
+      spriteID: 1f4e6e42158867d50800000000000000
+      internalID: 6734720174871995633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left legs_4
+      name: run up left left torso_4
       rect:
         serializedVersion: 2
         x: 1600
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0822399f6dd64f1d0800000000000000
-      internalID: -3317906255387614592
+      spriteID: 3a6b8df87799204e0800000000000000
+      internalID: -2016880944315058525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left legs_5
+      name: run up left left torso_5
       rect:
         serializedVersion: 2
         x: 3200
@@ -259,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c06fcce6540b4ad00800000000000000
-      internalID: 983104430931768844
+      spriteID: 173b00108751de810800000000000000
+      internalID: 1796115431547777905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left legs_6
+      name: run up left left torso_6
       rect:
         serializedVersion: 2
         x: 0
@@ -281,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 859577cc478c931f0800000000000000
-      internalID: -1064599432924276392
+      spriteID: 520937c8995e43700800000000000000
+      internalID: 519292304703590437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left legs_7
+      name: run up left left torso_7
       rect:
         serializedVersion: 2
         x: 1600
@@ -303,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d0471d43738fb190800000000000000
-      internalID: -7944486686420418349
+      spriteID: f3e5e8ffdb2ca5860800000000000000
+      internalID: 7519536649140592191
       vertices: []
       indices: 
       edges: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 929e1bd7c9cfe9b80888c57f7a5a6345
+    spriteID: 49d81a61048bec0d0b57f2b27f8d06fa
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      run up left left legs_0: 3974739351003769233
-      run up left left legs_1: -6550800091164812043
-      run up left left legs_2: 2889399880188417245
-      run up left left legs_3: 746046656313616785
-      run up left left legs_4: -3317906255387614592
-      run up left left legs_5: 983104430931768844
-      run up left left legs_6: -1064599432924276392
-      run up left left legs_7: -7944486686420418349
+      run up left left torso_0: 8410518727937514406
+      run up left left torso_1: 3431379337283240794
+      run up left left torso_2: -3417982846428416520
+      run up left left torso_3: 6734720174871995633
+      run up left left torso_4: -2016880944315058525
+      run up left left torso_5: 1796115431547777905
+      run up left left torso_6: 519292304703590437
+      run up left left torso_7: 7519536649140592191
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +132,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -154,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1600
-        y: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -175,8 +175,8 @@ TextureImporter:
       name: idle left legs_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1600
+        x: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -197,8 +197,8 @@ TextureImporter:
       name: idle left legs_3
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 1600
+        x: 0
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -219,8 +219,8 @@ TextureImporter:
       name: idle left legs_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1600
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -241,8 +241,8 @@ TextureImporter:
       name: idle left legs_5
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 0
+        x: 3200
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -255,6 +255,138 @@ TextureImporter:
       bones: []
       spriteID: 3edc44a7c391c3bc0800000000000000
       internalID: -3802136237867479581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left legs_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4ea749d6c436f39a4ea337ecc75e11
+      internalID: 1792125824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left legs_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8363af25e281fd77093a263deb6bb59e
+      internalID: 1027298728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left legs_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56139a6f4d6205ec982eb3235484671
+      internalID: 1071421263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left legs_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2967b5e6c8092317ba3301c8d87672f
+      internalID: -1040345185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left legs_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581a6dca1e3e2e7f8a9acef25b4ad1e6
+      internalID: -1448332451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left legs_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7afed77b82e3c792bcbc2ddea3979e5
+      internalID: -2128816571
       vertices: []
       indices: 
       edges: []
@@ -275,10 +407,16 @@ TextureImporter:
     nameFileIdTable:
       idle left legs_0: 3754759316018964573
       idle left legs_1: -3521493792728498625
+      idle left legs_10: -1448332451
+      idle left legs_11: -2128816571
       idle left legs_2: 2556735821465529824
       idle left legs_3: -762945141064196242
       idle left legs_4: 3413237098494163618
       idle left legs_5: -3802136237867479581
+      idle left legs_6: 1792125824
+      idle left legs_7: 1027298728
+      idle left legs_8: 1071421263
+      idle left legs_9: -1040345185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

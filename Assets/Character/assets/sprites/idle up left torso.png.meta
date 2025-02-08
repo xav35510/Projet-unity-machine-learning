@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +132,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -154,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1600
-        y: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -175,8 +175,8 @@ TextureImporter:
       name: idle up left torso_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1600
+        x: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -197,8 +197,8 @@ TextureImporter:
       name: idle up left torso_3
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 1600
+        x: 0
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -219,8 +219,8 @@ TextureImporter:
       name: idle up left torso_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1600
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -241,8 +241,8 @@ TextureImporter:
       name: idle up left torso_5
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 0
+        x: 3200
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -255,6 +255,138 @@ TextureImporter:
       bones: []
       spriteID: 4b740509042ee2120800000000000000
       internalID: 2391097219107276724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left torso_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbfcf77b7f8181069beae207986118b
+      internalID: 1873515246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left torso_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23540a82a0de7552da202b07cf984d34
+      internalID: -806780619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left torso_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dd77968f252d3f581859312a179e4f
+      internalID: -2011815130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left torso_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8622a32595f68249abc6adfe51dd724
+      internalID: -945754783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left torso_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e139d0773846850da432bec48bf9e26
+      internalID: -1854864922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left torso_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20b60bdb8c96fce4aecab3bc4632ae9
+      internalID: 1768653679
       vertices: []
       indices: 
       edges: []
@@ -275,10 +407,16 @@ TextureImporter:
     nameFileIdTable:
       idle up left torso_0: -4347691596183020445
       idle up left torso_1: 6134943046993326386
+      idle up left torso_10: -1854864922
+      idle up left torso_11: 1768653679
       idle up left torso_2: 5702536258646525612
       idle up left torso_3: -6999697794040564757
       idle up left torso_4: 827427949375546928
       idle up left torso_5: 2391097219107276724
+      idle up left torso_6: 1873515246
+      idle up left torso_7: -806780619
+      idle up left torso_8: -2011815130
+      idle up left torso_9: -945754783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

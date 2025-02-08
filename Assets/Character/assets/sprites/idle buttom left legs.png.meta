@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +132,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -154,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1600
-        y: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -175,8 +175,8 @@ TextureImporter:
       name: idle buttom left legs_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1600
+        x: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -197,8 +197,8 @@ TextureImporter:
       name: idle buttom left legs_3
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 1600
+        x: 0
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -219,8 +219,8 @@ TextureImporter:
       name: idle buttom left legs_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1600
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -241,8 +241,8 @@ TextureImporter:
       name: idle buttom left legs_5
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 0
+        x: 3200
+        y: 3200
         width: 1600
         height: 1600
       alignment: 0
@@ -255,6 +255,138 @@ TextureImporter:
       bones: []
       spriteID: de6d4d19be7b86a80800000000000000
       internalID: -8473320476505745683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle buttom left legs_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426210444204c9ba5b969ee42fba92ef
+      internalID: 570012083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle buttom left legs_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5128453bb39608aff91132ff27346ec4
+      internalID: 1964311275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle buttom left legs_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d425bb5d275582ab830bc543d5284b3
+      internalID: 634838764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle buttom left legs_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd1929c0f70d914391855c57b159462
+      internalID: -1260511237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle buttom left legs_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97bf07aa06840e0081cbaefb03f3029
+      internalID: -821788323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle buttom left legs_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0850a68415ee4726e948372c0bca56f4
+      internalID: -358815593
       vertices: []
       indices: 
       edges: []
@@ -275,10 +407,16 @@ TextureImporter:
     nameFileIdTable:
       idle buttom left legs_0: 390535565779734766
       idle buttom left legs_1: 5799416609046465382
+      idle buttom left legs_10: -821788323
+      idle buttom left legs_11: -358815593
       idle buttom left legs_2: -4808999495832369805
       idle buttom left legs_3: -1411216884058189448
       idle buttom left legs_4: -3633984493211560428
       idle buttom left legs_5: -8473320476505745683
+      idle buttom left legs_6: 570012083
+      idle buttom left legs_7: 1964311275
+      idle buttom left legs_8: 634838764
+      idle buttom left legs_9: -1260511237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

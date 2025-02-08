@@ -1,25 +1,43 @@
 fileFormatVersion: 2
-guid: 4df667ae26f59e8f78289a379b11eafd
+guid: 9aec443afe5d4da708b5ae8d5f0982ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4472850083834277581
-    second: idle left torso_0
+      213: 2849110366602878995
+    second: idle left_0
   - first:
-      213: 8064392681687229699
-    second: idle left torso_1
+      213: -7061272880485627695
+    second: idle left_1
   - first:
-      213: -6292611717400861620
-    second: idle left torso_2
+      213: 610699423611329433
+    second: idle left_2
   - first:
-      213: -4449000779488812626
-    second: idle left torso_3
+      213: -2837633279628216472
+    second: idle left_3
   - first:
-      213: 3261803560949362916
-    second: idle left torso_4
+      213: -2597337368844981423
+    second: idle left_4
   - first:
-      213: -457766034890000356
-    second: idle left torso_5
+      213: -6156689386233440225
+    second: idle left_5
+  - first:
+      213: 4445298514715243710
+    second: idle left_6
+  - first:
+      213: 4379294710596023743
+    second: idle left_7
+  - first:
+      213: -9047911633704939771
+    second: idle left_8
+  - first:
+      213: 104138008839590027
+    second: idle left_9
+  - first:
+      213: -3399583900362721911
+    second: idle left_10
+  - first:
+      213: -8159282685326822306
+    second: idle left_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +150,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3200
+        y: 4800
         width: 1600
         height: 1600
       alignment: 0
@@ -141,10 +159,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3315b730c8e3de1c0800000000000000
-      internalID: -4472850083834277581
+      spriteID: 10def7bd112580d3ebc8c0d8cdff4ead
+      internalID: -1353523210
       vertices: []
       indices: 
       edges: []
@@ -154,6 +172,50 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1600
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46617def57b4031819846b8648041559
+      internalID: 648367688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_2
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c700373d4829b10d69cb53a04b88f751
+      internalID: -732636654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_3
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 3200
         width: 1600
         height: 1600
@@ -163,54 +225,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3052a31ca6a7aef60800000000000000
-      internalID: 8064392681687229699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle left torso_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1600
-        width: 1600
-        height: 1600
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c446cd29bf62ca8a0800000000000000
-      internalID: -6292611717400861620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle left torso_3
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 1600
-        width: 1600
-        height: 1600
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea12225ec59f142c0800000000000000
-      internalID: -4449000779488812626
+      spriteID: 78a144e597c27c25bbff5b5f113f66c1
+      internalID: 358095516
       vertices: []
       indices: 
       edges: []
@@ -219,6 +237,116 @@ TextureImporter:
       name: idle left torso_4
       rect:
         serializedVersion: 2
+        x: 1600
+        y: 3200
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832488264fe07490084615350cbe4887
+      internalID: -82070964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_5
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3200
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ffd38573a6c3964b47391bda3561ee
+      internalID: 1582626572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7276953639083d3bb6c99f6d4cb45a
+      internalID: 965694512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adf175c4e57db213b340680d9b56f3f
+      internalID: -35794324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca43029b9346bc0488ec8ba41be53db0
+      internalID: -1240587516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_9
+      rect:
+        serializedVersion: 2
         x: 0
         y: 0
         width: 1600
@@ -229,16 +357,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e0bd719e01444d20800000000000000
-      internalID: 3261803560949362916
+      spriteID: 33e8ee3bbdedf18ae9b8d54227f7ae5b
+      internalID: 770687912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle left torso_5
+      name: idle left torso_10
       rect:
         serializedVersion: 2
         x: 1600
@@ -251,10 +379,32 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c1874247730b5a9f0800000000000000
-      internalID: -457766034890000356
+      spriteID: ae0e2b271610d04258f74cce00c933a0
+      internalID: -28737478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle left torso_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18936fe89a8923afa5fadc68a7bf9af
+      internalID: 1618549607
       vertices: []
       indices: 
       edges: []
@@ -263,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 987d5585f7b5a2899947f6a34ae698f3
+    spriteID: 5781842d113e97545b40b200cb2e6894
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +423,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      idle left torso_0: -4472850083834277581
-      idle left torso_1: 8064392681687229699
-      idle left torso_2: -6292611717400861620
-      idle left torso_3: -4449000779488812626
-      idle left torso_4: 3261803560949362916
-      idle left torso_5: -457766034890000356
+      idle left torso_0: -1353523210
+      idle left torso_1: 648367688
+      idle left torso_10: -28737478
+      idle left torso_11: 1618549607
+      idle left torso_2: -732636654
+      idle left torso_3: 358095516
+      idle left torso_4: -82070964
+      idle left torso_5: 1582626572
+      idle left torso_6: 965694512
+      idle left torso_7: -35794324
+      idle left torso_8: -1240587516
+      idle left torso_9: 770687912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

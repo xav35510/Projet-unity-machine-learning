@@ -1,31 +1,79 @@
 fileFormatVersion: 2
-guid: 5c9a5f1e5269669bea76566ad19e4979
+guid: 2c6b06d31d21a157aa14c447af8ea33d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2405173379639813929
-    second: run up left left toso_0
+      213: 945364422065139844
+    second: idle up left left legs_0
   - first:
-      213: -957114311817483495
-    second: run up left left toso_1
+      213: 1861309753376296857
+    second: idle up left left legs_1
   - first:
-      213: -8556944111211221422
-    second: run up left left toso_2
+      213: -5743315836304114631
+    second: idle up left left legs_2
   - first:
-      213: 6311760305798370416
-    second: run up left left toso_3
+      213: -6310083192861088342
+    second: idle up left left legs_3
   - first:
-      213: 2078144316130633358
-    second: run up left left toso_4
+      213: 5445752695443021565
+    second: idle up left left legs_4
   - first:
-      213: -3210831217728781642
-    second: run up left left toso_5
+      213: 419533765305108274
+    second: idle up left left legs_5
   - first:
-      213: -2145561643319071572
-    second: run up left left toso_6
+      213: 6776759999171783714
+    second: idle up left left legs_6
   - first:
-      213: -8124930082815379461
-    second: run up left left toso_7
+      213: 7262536674053841025
+    second: idle up left left legs_7
+  - first:
+      213: -9216078346033300307
+    second: idle up left left legs_8
+  - first:
+      213: 6761320671163213151
+    second: idle up left left legs_9
+  - first:
+      213: 255958684463335582
+    second: idle up left left legs_10
+  - first:
+      213: -6067958822955480631
+    second: idle up left left legs_11
+  - first:
+      213: 4747309101892682325
+    second: idle up left left legs_12
+  - first:
+      213: 327499101990479471
+    second: idle up left left legs_13
+  - first:
+      213: 8214459463917585264
+    second: idle up left left legs_14
+  - first:
+      213: -857111014608067551
+    second: idle up left left legs_15
+  - first:
+      213: 2597815049644801451
+    second: idle up left left legs_16
+  - first:
+      213: -3891015448472598034
+    second: idle up left left legs_17
+  - first:
+      213: -1136737292962441082
+    second: idle up left left legs_18
+  - first:
+      213: 5094497836407792971
+    second: idle up left left legs_19
+  - first:
+      213: 2988100934919813278
+    second: idle up left left legs_20
+  - first:
+      213: 865941733957753373
+    second: idle up left left legs_21
+  - first:
+      213: -8689206245650666500
+    second: idle up left left legs_22
+  - first:
+      213: -8018549365238469441
+    second: idle up left left legs_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +141,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -134,7 +182,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run up left left toso_0
+      name: idle up left left legs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4803c70eeeb9e1d00800000000000000
+      internalID: 945364422065139844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left left legs_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fc6faeb53b4d910800000000000000
+      internalID: 1861309753376296857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left left legs_2
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cb7302da4ab40b0800000000000000
+      internalID: -5743315836304114631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left left legs_3
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d8d75bed8b1f9ed0800000000000000
-      internalID: -2405173379639813929
+      spriteID: aa52a52b4c41e68a0800000000000000
+      internalID: -6310083192861088342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left toso_1
+      name: idle up left left legs_4
       rect:
         serializedVersion: 2
         x: 1600
@@ -171,14 +285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91b2daaba95a7b2f0800000000000000
-      internalID: -957114311817483495
+      spriteID: dfed1824933339b40800000000000000
+      internalID: 5445752695443021565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left toso_2
+      name: idle up left left legs_5
       rect:
         serializedVersion: 2
         x: 3200
@@ -193,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25e6260eaa0af3980800000000000000
-      internalID: -8556944111211221422
+      spriteID: 2370b4c9cbb72d500800000000000000
+      internalID: 419533765305108274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left toso_3
+      name: idle up left left legs_6
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 074d5869e80e79750800000000000000
-      internalID: 6311760305798370416
+      spriteID: 22ce5be7053eb0e50800000000000000
+      internalID: 6776759999171783714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left toso_4
+      name: idle up left left legs_7
       rect:
         serializedVersion: 2
         x: 1600
@@ -237,14 +351,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e86a6fabe3d07dc10800000000000000
-      internalID: 2078144316130633358
+      spriteID: 180e93160a6b9c460800000000000000
+      internalID: 7262536674053841025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left toso_5
+      name: idle up left left legs_8
       rect:
         serializedVersion: 2
         x: 3200
@@ -259,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b28a89e406d073d0800000000000000
-      internalID: -3210831217728781642
+      spriteID: dacf38ab299e91080800000000000000
+      internalID: -9216078346033300307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left toso_6
+      name: idle up left left legs_9
       rect:
         serializedVersion: 2
         x: 0
@@ -281,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cac63469d0f6932e0800000000000000
-      internalID: -2145561643319071572
+      spriteID: f556031d35905dd50800000000000000
+      internalID: 6761320671163213151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left left toso_7
+      name: idle up left left legs_10
       rect:
         serializedVersion: 2
         x: 1600
@@ -303,8 +417,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf777ec23237e3f80800000000000000
-      internalID: -8124930082815379461
+      spriteID: e980d9041195d8300800000000000000
+      internalID: 255958684463335582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up left left legs_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c98a0699974acba0800000000000000
+      internalID: -6067958822955480631
       vertices: []
       indices: 
       edges: []
@@ -313,7 +449,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ebc6db82da9cbfa73a18f9add8d53518
+    spriteID: 36a7317b8e5bc5411a48b3ab3ddf2f4c
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +459,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      run up left left toso_0: -2405173379639813929
-      run up left left toso_1: -957114311817483495
-      run up left left toso_2: -8556944111211221422
-      run up left left toso_3: 6311760305798370416
-      run up left left toso_4: 2078144316130633358
-      run up left left toso_5: -3210831217728781642
-      run up left left toso_6: -2145561643319071572
-      run up left left toso_7: -8124930082815379461
+      idle up left left legs_0: 945364422065139844
+      idle up left left legs_1: 1861309753376296857
+      idle up left left legs_10: 255958684463335582
+      idle up left left legs_11: -6067958822955480631
+      idle up left left legs_2: -5743315836304114631
+      idle up left left legs_3: -6310083192861088342
+      idle up left left legs_4: 5445752695443021565
+      idle up left left legs_5: 419533765305108274
+      idle up left left legs_6: 6776759999171783714
+      idle up left left legs_7: 7262536674053841025
+      idle up left left legs_8: -9216078346033300307
+      idle up left left legs_9: 6761320671163213151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: d3b3788e54e306f83ae8db82ce13e96e
+guid: f1e3c9b4e21eb37929a938d1fee06a79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4055963010926439706
-    second: run up left legs_0
+      213: 955825313843362194
+    second: idle riffle_laser_0
   - first:
-      213: -6902146138481539648
-    second: run up left legs_1
+      213: 2200912814314252821
+    second: idle riffle_laser_1
   - first:
-      213: -7030782101056371762
-    second: run up left legs_2
+      213: 682610352446207553
+    second: idle riffle_laser_2
   - first:
-      213: -3420457306487218488
-    second: run up left legs_3
+      213: 635751077407363501
+    second: idle riffle_laser_3
   - first:
-      213: 1768864983404132532
-    second: run up left legs_4
+      213: -2828247591700313212
+    second: idle riffle_laser_4
   - first:
-      213: -6836620239620053775
-    second: run up left legs_5
+      213: -9388989652367196
+    second: idle riffle_laser_5
   - first:
-      213: 8535056178555986275
-    second: run up left legs_6
+      213: 7237781245294501666
+    second: idle riffle_laser_6
   - first:
-      213: -8113284290185733327
-    second: run up left legs_7
+      213: -4316860139455538668
+    second: idle riffle_laser_7
+  - first:
+      213: 9207787306097191892
+    second: idle riffle_laser_8
+  - first:
+      213: 6143683981840132953
+    second: idle riffle_laser_9
+  - first:
+      213: -7133331279793787506
+    second: idle riffle_laser_10
+  - first:
+      213: 6155343400216979775
+    second: idle riffle_laser_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +146,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run up left legs_0
+      name: idle riffle_laser_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299b5fa0f06c34d00800000000000000
+      internalID: 955825313843362194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle riffle_laser_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a6ece2b863b8e10800000000000000
+      internalID: 2200912814314252821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle riffle_laser_2
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1467f89bf7e197900800000000000000
+      internalID: 682610352446207553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle riffle_laser_3
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1de4687edca94830800000000000000
-      internalID: 4055963010926439706
+      spriteID: da1107e8c34a2d800800000000000000
+      internalID: 635751077407363501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left legs_1
+      name: idle riffle_laser_4
       rect:
         serializedVersion: 2
         x: 1600
@@ -171,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c549fbf7a6a630a0800000000000000
-      internalID: -6902146138481539648
+      spriteID: 48b49dfcccb00c8d0800000000000000
+      internalID: -2828247591700313212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left legs_2
+      name: idle riffle_laser_5
       rect:
         serializedVersion: 2
         x: 3200
@@ -193,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec34c550ee4ad6e90800000000000000
-      internalID: -7030782101056371762
+      spriteID: 4a888fe73c4aedff0800000000000000
+      internalID: -9388989652367196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left legs_3
+      name: idle riffle_laser_6
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ce907db3381880d0800000000000000
-      internalID: -3420457306487218488
+      spriteID: 22f53c7f1b3c17460800000000000000
+      internalID: 7237781245294501666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left legs_4
+      name: idle riffle_laser_7
       rect:
         serializedVersion: 2
         x: 1600
@@ -237,14 +315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b83e6f94554c8810800000000000000
-      internalID: 1768864983404132532
+      spriteID: 41a95ba239e6714c0800000000000000
+      internalID: -4316860139455538668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left legs_5
+      name: idle riffle_laser_8
       rect:
         serializedVersion: 2
         x: 3200
@@ -259,14 +337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f463313d127f11a0800000000000000
-      internalID: -6836620239620053775
+      spriteID: 4db264b15c1a8cf70800000000000000
+      internalID: 9207787306097191892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left legs_6
+      name: idle riffle_laser_9
       rect:
         serializedVersion: 2
         x: 0
@@ -281,14 +359,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36125dcaf5c927670800000000000000
-      internalID: 8535056178555986275
+      spriteID: 95ba6d5e700c24550800000000000000
+      internalID: 6143683981840132953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up left legs_7
+      name: idle riffle_laser_10
       rect:
         serializedVersion: 2
         x: 1600
@@ -303,8 +381,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13bd8b19ce2d76f80800000000000000
-      internalID: -8113284290185733327
+      spriteID: e8d65babef0510d90800000000000000
+      internalID: -7133331279793787506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle riffle_laser_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f396a78c53c2c6550800000000000000
+      internalID: 6155343400216979775
       vertices: []
       indices: 
       edges: []
@@ -313,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a3ec0afd9e2db866abf474c5f06cc6ed
+    spriteID: 14cb2b21b4911dc55a89d57c26753111
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +423,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      run up left legs_0: 4055963010926439706
-      run up left legs_1: -6902146138481539648
-      run up left legs_2: -7030782101056371762
-      run up left legs_3: -3420457306487218488
-      run up left legs_4: 1768864983404132532
-      run up left legs_5: -6836620239620053775
-      run up left legs_6: 8535056178555986275
-      run up left legs_7: -8113284290185733327
+      idle riffle_laser_0: 955825313843362194
+      idle riffle_laser_1: 2200912814314252821
+      idle riffle_laser_10: -7133331279793787506
+      idle riffle_laser_11: 6155343400216979775
+      idle riffle_laser_2: 682610352446207553
+      idle riffle_laser_3: 635751077407363501
+      idle riffle_laser_4: -2828247591700313212
+      idle riffle_laser_5: -9388989652367196
+      idle riffle_laser_6: 7237781245294501666
+      idle riffle_laser_7: -4316860139455538668
+      idle riffle_laser_8: 9207787306097191892
+      idle riffle_laser_9: 6143683981840132953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

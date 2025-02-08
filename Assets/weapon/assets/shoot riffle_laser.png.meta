@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: 20e1f8a7ed96c4357bcaf541329d57ab
+guid: 0f0bbd485b9767651b373369edc79458
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1894553332382010284
-    second: run up torso 1_0
+      213: -8464891181143310168
+    second: shoot riffle_laser_0
   - first:
-      213: 4560008231254963861
-    second: run up torso 1_1
+      213: -1921181595384711160
+    second: shoot riffle_laser_1
   - first:
-      213: -5590879902379612233
-    second: run up torso 1_2
+      213: -5019112780377392251
+    second: shoot riffle_laser_2
   - first:
-      213: -732094620433232190
-    second: run up torso 1_3
+      213: 3755648257926703967
+    second: shoot riffle_laser_3
   - first:
-      213: 3723366673099858927
-    second: run up torso 1_4
-  - first:
-      213: -6330066501741475550
-    second: run up torso 1_5
-  - first:
-      213: 1043005494589603664
-    second: run up torso 1_6
-  - first:
-      213: -7765916425425578026
-    second: run up torso 1_7
+      213: -1628301684314697490
+    second: shoot riffle_laser_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +84,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -134,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run up torso 1_0
+      name: shoot riffle_laser_0
       rect:
         serializedVersion: 2
-        x: 511
-        y: 3871
-        width: 514
-        height: 450
+        x: 479
+        y: 4703
+        width: 770
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 454765f28c135b5e0800000000000000
-      internalID: -1894553332382010284
+      spriteID: 8a0cd95d15aa68a80800000000000000
+      internalID: -8464891181143310168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up torso 1_1
+      name: shoot riffle_laser_1
       rect:
         serializedVersion: 2
-        x: 2111
-        y: 3935
-        width: 514
-        height: 450
+        x: 2431
+        y: 4703
+        width: 770
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5963fcc8357684f30800000000000000
-      internalID: 4560008231254963861
+      spriteID: 808731294879655e0800000000000000
+      internalID: -1921181595384711160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up torso 1_2
+      name: shoot riffle_laser_2
       rect:
         serializedVersion: 2
-        x: 3711
-        y: 3903
-        width: 514
-        height: 482
+        x: 575
+        y: 2783
+        width: 770
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7b7eaccb9543962b0800000000000000
-      internalID: -5590879902379612233
+      spriteID: 58b7bf5c487885ab0800000000000000
+      internalID: -5019112780377392251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up torso 1_3
+      name: shoot riffle_laser_3
       rect:
         serializedVersion: 2
-        x: 511
-        y: 2271
-        width: 514
-        height: 482
+        x: 2527
+        y: 2783
+        width: 770
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ce4a1f42d317d5f0800000000000000
-      internalID: -732094620433232190
+      spriteID: f5b290b313ebe1430800000000000000
+      internalID: 3755648257926703967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up torso 1_4
+      name: shoot riffle_laser_4
       rect:
         serializedVersion: 2
-        x: 2111
-        y: 2271
-        width: 514
-        height: 450
+        x: 607
+        y: 863
+        width: 770
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,74 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe325ae034e0ca330800000000000000
-      internalID: 3723366673099858927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: run up torso 1_5
-      rect:
-        serializedVersion: 2
-        x: 3711
-        y: 2303
-        width: 514
-        height: 482
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22989170e061728a0800000000000000
-      internalID: -6330066501741475550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: run up torso 1_6
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 671
-        width: 514
-        height: 514
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05f3bc3a8ff797e00800000000000000
-      internalID: 1043005494589603664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: run up torso 1_7
-      rect:
-        serializedVersion: 2
-        x: 2111
-        y: 671
-        width: 514
-        height: 482
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d7132b182ce93490800000000000000
-      internalID: -7765916425425578026
+      spriteID: ee09047ce3c1769e0800000000000000
+      internalID: -1628301684314697490
       vertices: []
       indices: 
       edges: []
@@ -323,14 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      run up torso 1_0: -1894553332382010284
-      run up torso 1_1: 4560008231254963861
-      run up torso 1_2: -5590879902379612233
-      run up torso 1_3: -732094620433232190
-      run up torso 1_4: 3723366673099858927
-      run up torso 1_5: -6330066501741475550
-      run up torso 1_6: 1043005494589603664
-      run up torso 1_7: -7765916425425578026
+      shoot riffle_laser_0: -8464891181143310168
+      shoot riffle_laser_1: -1921181595384711160
+      shoot riffle_laser_2: -5019112780377392251
+      shoot riffle_laser_3: 3755648257926703967
+      shoot riffle_laser_4: -1628301684314697490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

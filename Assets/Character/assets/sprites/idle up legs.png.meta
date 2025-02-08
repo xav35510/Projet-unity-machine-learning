@@ -1,31 +1,79 @@
 fileFormatVersion: 2
-guid: 0101ca0d746326002b19e464837e9352
+guid: 9f284dbe8c98dfe4ca2d8a85b3c91dc5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5028797669495909394
-    second: run up legs_0
+      213: 6954291575681956205
+    second: idle up legs_0
   - first:
-      213: -6755797463309090295
-    second: run up legs_1
+      213: 114114438597144767
+    second: idle up legs_1
   - first:
-      213: 3879653687185974849
-    second: run up legs_2
+      213: 206851150613951163
+    second: idle up legs_2
   - first:
-      213: 439553720657457913
-    second: run up legs_3
+      213: 3083336832855890962
+    second: idle up legs_3
   - first:
-      213: -8185756747995842071
-    second: run up legs_4
+      213: -4147381392245256898
+    second: idle up legs_4
   - first:
-      213: 579902142342076803
-    second: run up legs_5
+      213: -2157021925506855164
+    second: idle up legs_5
   - first:
-      213: 3793889139720749853
-    second: run up legs_6
+      213: 948374548377496601
+    second: idle up legs_6
   - first:
-      213: -8601478524132711750
-    second: run up legs_7
+      213: -3727174500769138342
+    second: idle up legs_7
+  - first:
+      213: 1576857346749976059
+    second: idle up legs_8
+  - first:
+      213: -8142743414277905940
+    second: idle up legs_9
+  - first:
+      213: -1412493048809208818
+    second: idle up legs_10
+  - first:
+      213: 6983281813190608612
+    second: idle up legs_11
+  - first:
+      213: -3536994802997480477
+    second: idle up legs_12
+  - first:
+      213: -7435346391352343205
+    second: idle up legs_13
+  - first:
+      213: 1966432693954957948
+    second: idle up legs_14
+  - first:
+      213: 7250588322976871563
+    second: idle up legs_15
+  - first:
+      213: -3341734598453808329
+    second: idle up legs_16
+  - first:
+      213: 1850774966643315353
+    second: idle up legs_17
+  - first:
+      213: 4774412504713387143
+    second: idle up legs_18
+  - first:
+      213: 4064673736888227475
+    second: idle up legs_19
+  - first:
+      213: -6904537091691973170
+    second: idle up legs_20
+  - first:
+      213: -7330090023731129822
+    second: idle up legs_21
+  - first:
+      213: 5193424444352913761
+    second: idle up legs_22
+  - first:
+      213: -6573612556779587518
+    second: idle up legs_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 900
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +141,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -134,7 +182,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run up legs_0
+      name: idle up legs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69b309b75b928060800000000000000
+      internalID: 6954291575681956205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up legs_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb073503a7a659100800000000000000
+      internalID: 114114438597144767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up legs_2
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4800
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2b9b98602eed200800000000000000
+      internalID: 206851150613951163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up legs_3
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21cad9136d0e9c540800000000000000
-      internalID: 5028797669495909394
+      spriteID: 21cd04563863aca20800000000000000
+      internalID: 3083336832855890962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up legs_1
+      name: idle up legs_4
       rect:
         serializedVersion: 2
         x: 1600
@@ -171,14 +285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9020af830069e32a0800000000000000
-      internalID: -6755797463309090295
+      spriteID: e3d0827f89a8176c0800000000000000
+      internalID: -4147381392245256898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up legs_2
+      name: idle up legs_5
       rect:
         serializedVersion: 2
         x: 3200
@@ -193,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1462144297c47d530800000000000000
-      internalID: 3879653687185974849
+      spriteID: 40f4f65bcf7b012e0800000000000000
+      internalID: -2157021925506855164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up legs_3
+      name: idle up legs_6
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f23d73b7cb991600800000000000000
-      internalID: 439553720657457913
+      spriteID: 91cef0680ad492d00800000000000000
+      internalID: 948374548377496601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up legs_4
+      name: idle up legs_7
       rect:
         serializedVersion: 2
         x: 1600
@@ -237,14 +351,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e973f19b99566e80800000000000000
-      internalID: -8185756747995842071
+      spriteID: a59f2c9f98a664cc0800000000000000
+      internalID: -3727174500769138342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up legs_5
+      name: idle up legs_8
       rect:
         serializedVersion: 2
         x: 3200
@@ -259,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38999ce0de93c0800800000000000000
-      internalID: 579902142342076803
+      spriteID: bfd4f7ef66f12e510800000000000000
+      internalID: 1576857346749976059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up legs_6
+      name: idle up legs_9
       rect:
         serializedVersion: 2
         x: 0
@@ -281,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d13844a521a96a430800000000000000
-      internalID: 3793889139720749853
+      spriteID: ce160deb10a2ffe80800000000000000
+      internalID: -8142743414277905940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run up legs_7
+      name: idle up legs_10
       rect:
         serializedVersion: 2
         x: 1600
@@ -303,8 +417,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab22be9dad861a880800000000000000
-      internalID: -8601478524132711750
+      spriteID: e04c40a4e01d56ce0800000000000000
+      internalID: -1412493048809208818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle up legs_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e60ca16fc999e060800000000000000
+      internalID: 6983281813190608612
       vertices: []
       indices: 
       edges: []
@@ -313,7 +449,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4dc1e736bfec83630ad75d29027f1f48
+    spriteID: 417639667b008be52af6bb40593d7846
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +459,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      run up legs_0: 5028797669495909394
-      run up legs_1: -6755797463309090295
-      run up legs_2: 3879653687185974849
-      run up legs_3: 439553720657457913
-      run up legs_4: -8185756747995842071
-      run up legs_5: 579902142342076803
-      run up legs_6: 3793889139720749853
-      run up legs_7: -8601478524132711750
+      idle up legs_0: 6954291575681956205
+      idle up legs_1: 114114438597144767
+      idle up legs_10: -1412493048809208818
+      idle up legs_11: 6983281813190608612
+      idle up legs_2: 206851150613951163
+      idle up legs_3: 3083336832855890962
+      idle up legs_4: -4147381392245256898
+      idle up legs_5: -2157021925506855164
+      idle up legs_6: 948374548377496601
+      idle up legs_7: -3727174500769138342
+      idle up legs_8: 1576857346749976059
+      idle up legs_9: -8142743414277905940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Utile : MonoBehaviour
 {
 
-    private Vector2 mousePos;
+    private Vector3 mousePos;
     public float mouseAngle;
 
 
@@ -16,14 +16,17 @@ public class Utile : MonoBehaviour
     }
     private void captureMousePos()
     {
-        Vector2 ret = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        Vector3 ret = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        Vector3 retBis = ret;
         ret *=2;
-        ret -= Vector2.one;
+        ret -= Vector3.one;
         float max = 0.9f;
         if(Mathf.Abs(ret.x) > max || Mathf.Abs(ret.y) > max){
             ret = ret.normalized;
         }
+
         mousePos = ret;
+
     }
 
     private void calculMouseAngle()
@@ -31,9 +34,9 @@ public class Utile : MonoBehaviour
         mouseAngle = Mathf.Atan2(mousePos.y,mousePos.x);
     }
 
-    public Vector2 getMousePos()
+    public Vector3 getMousePos()
     {
-        return mousePos;
+        return mousePos;    
     }
 
     public float getMouseAngle()
