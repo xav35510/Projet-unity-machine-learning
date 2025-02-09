@@ -31,11 +31,11 @@ public class torsoController : MonoBehaviour
     {
         if(playerMovement.getIsMoving())
         {
-            torsoAnimation.SetFloat("state", 1);
+            torsoAnimation.SetInteger("state", 1);
         }
         else
         {
-            torsoAnimation.SetFloat("state", 0);
+            torsoAnimation.SetInteger("state", 0);
         }
     }
 
