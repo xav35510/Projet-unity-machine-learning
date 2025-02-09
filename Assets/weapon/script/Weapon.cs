@@ -4,8 +4,11 @@ public abstract class Weapon : MonoBehaviour
 {
 
     public Transform weaponRotation;
+    public Character owner;
     public WeaponController weaponController;
     public SpriteRenderer sprite;
+
+    public Animator weaponAnimator;
 
     public abstract void shot();
     public abstract void reload();
@@ -34,6 +37,16 @@ public abstract class Weapon : MonoBehaviour
         {
             sprite.sortingOrder = 2;
         }
+
+        if(owner.getIsMoving())
+        {
+            weaponAnimator.SetBool("isRunning", true);
+        }
+        else
+        {
+            weaponAnimator.SetBool("isRunning", false);
+        }
+
     }
 
 } 

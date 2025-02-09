@@ -10,4 +10,6 @@ public abstract class Character : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
     }
 
+    public abstract bool getIsMoving();
+
 }

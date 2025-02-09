@@ -25,7 +25,7 @@ public class PlayerMovement : Character
     }
 
     //getter
-    public bool getIsMoving() 
+    public override bool getIsMoving() 
     {
         return isMoving;
     }
