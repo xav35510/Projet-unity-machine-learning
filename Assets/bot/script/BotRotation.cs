@@ -42,4 +42,9 @@ public class BotRotation : Character {
                 break;
         }
     }
+
+    public override bool getIsMoving()
+    {
+        return true;
+    }
 }

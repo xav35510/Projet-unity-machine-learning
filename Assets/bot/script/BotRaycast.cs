@@ -26,4 +26,9 @@ public class BotRaycast : Character {
             }
         }
     }
+
+    public override bool getIsMoving()
+    {
+        return true;
+    }
 }

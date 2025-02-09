@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class BotMovement : Character
+public class BotPatrol : Character
 {   
     public float speed = 2f; // Vitesse du personnage
 
@@ -45,6 +45,9 @@ public class BotMovement : Character
         body.MovePosition(body.position + speed * Time.fixedDeltaTime * direction);
     }
 
-
+    public override bool getIsMoving()
+    {
+        return true;
+    }
 
 }
